@@ -6,6 +6,6 @@ RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . beautybeaker/index.php [L]
+RewriteRule . /beautybeaker/index.php [L]
 
 # END WordPress

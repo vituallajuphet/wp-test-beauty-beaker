@@ -3,7 +3,7 @@
         <div class="hdr_cont">
             <header id="header">
                 <div class="logo">
-                    <img src="" alt="logo">
+                    <a href="<?= get_home_url()?>"><img src="<?php bloginfo('template_url');?>/images/main_logo.png" alt="logo"></a>
                 </div>
             </header>
             <nav class='main_nav'>

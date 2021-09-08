@@ -1,15 +1,16 @@
 #header_nav_cont{
-    background-color: #8a468a;
+    background-color: #fff;
+    color:222;
     .hdr_cont{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        min-height: 70px;
+        min-height: 79px;
     }
 
     #header{
         .logo{
-            color: #fff;
+            max-width: 176px;
         }
     }
 
@@ -20,7 +21,7 @@
             li{
                 margin-left: 36px;
                 a{
-                    color: #fff;
+                    color: #222;
                     font-size: 18px;
                 }
             }
