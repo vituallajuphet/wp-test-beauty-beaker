@@ -23,7 +23,7 @@
 define( 'DB_NAME', 'thebeautybeaker_db21' );
 
 /** MySQL database username */
-define( 'DB_USER', 'thebeautybeaker_usr21 ' );
+define( 'DB_USER', 'thebeautybeaker_usr21' );
 
 /** MySQL database password */
 define( 'DB_PASSWORD', 'odRa;O~A5rSe' );
