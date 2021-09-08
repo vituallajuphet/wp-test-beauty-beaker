@@ -369,20 +369,21 @@ body {
           opacity: .6; }
 
 #footer {
-  background: #8a468a; }
+  background: #fff; }
   #footer .ftr_top {
     padding: 7rem 0; }
     #footer .ftr_top .ftrtop_cont {
       display: flex; }
+      #footer .ftr_top .ftrtop_cont .ftrlogo {
+        max-width: 280px; }
       #footer .ftr_top .ftrtop_cont .row-cont {
-        margin-right: 1rem;
-        width: 25%; }
+        margin-right: 7rem; }
         #footer .ftr_top .ftrtop_cont .row-cont h3 {
           font-size: 18px;
           font-weight: bold;
           position: relative;
           margin-bottom: 1.5rem;
-          color: #fff; }
+          color: #222; }
           #footer .ftr_top .ftrtop_cont .row-cont h3:before {
             content: "";
             position: absolute;
@@ -392,7 +393,7 @@ body {
             top: 27px; }
         #footer .ftr_top .ftrtop_cont .row-cont .ftr_links a {
           display: block;
-          color: #fff;
+          color: #222;
           margin-bottom: 5px;
           font-family: 'Open Sans', sans-serif; }
   #footer .ftr_btm {

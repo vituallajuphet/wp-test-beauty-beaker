@@ -356,20 +356,22 @@
 }
 
 #footer{
-    background: #8a468a;
+    background: #fff;
     .ftr_top{
         padding: 7rem 0;
         .ftrtop_cont{
             display: flex;
+            .ftrlogo{
+                max-width: 280px;
+            }
             .row-cont{
-                margin-right: 1rem;
-                width: 25%;
+                margin-right: 7rem;
                 h3{
                     font-size: 18px;
                     font-weight: bold;
                     position: relative;
                     margin-bottom: 1.5rem;
-                    color: #fff;
+                    color: #222;
                     &:before{
                         content: "";
                         position: absolute;
@@ -382,7 +384,7 @@
                 .ftr_links{
                     a{
                         display: block;
-                        color: #fff;
+                        color: #222;
                         margin-bottom: 5px;
                         font-family: 'Open Sans', sans-serif;
                     }

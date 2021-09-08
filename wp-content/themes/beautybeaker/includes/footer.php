@@ -5,7 +5,7 @@
                     <div class="ftrtop_cont">
                         <div class="row-cont">
                             <div class="ftrlogo">
-                                <img src="" alt="logo">
+                                <a href="<?= get_home_url()?>"><img src="<?php bloginfo('template_url');?>/images/main_logo.png" alt="logo"></a>
                             </div>
                         </div>
                         <div class="row-cont">
@@ -14,9 +14,9 @@
                             </h3>
                             <div class="ftr_links">
                             <!-- <?php// wp_nav_menu( array( 'theme_location' => 'fourth') ); ?> -->
-                                <a href="">Contact Us</a>
-                                <a href="">Shipping & Delivery</a>
-                                <a href="">Return Policy</a>
+                                <a href="">My Account</a>
+                                <a href="">Reviews</a>
+                                <a href="">FAQ</a>
                             </div>
                         </div>
                         <div class="row-cont">
@@ -24,9 +24,9 @@
                                 Follow Us
                             </h3>
                             <div class="ftr_links">
-                                <a href="">Facebook</a>
-                                <a href="">Instagram</a>
-                                <a href="">Twitter</a>
+                                <a href="#">Facebook</a>
+                                <a href="#">Instagram</a>
+                                <a href="#">Twitter</a>
                             </div>
                         </div>
                     </div>
