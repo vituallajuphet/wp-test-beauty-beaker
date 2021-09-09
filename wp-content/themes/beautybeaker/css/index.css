@@ -333,7 +333,7 @@ body {
         max-width: 250px;
         border-radius: 50%;
         display: block;
-        border: 5px solid #524e4f; }
+        border: 5px solid #763c76; }
       #main_area .main_cont main .main_inner .m-item {
         text-align: center; }
         #main_area .main_cont main .main_inner .m-item span {
@@ -400,4 +400,44 @@ body {
     text-align: center;
     background-color: #763c76;
     padding: 1rem 0;
+    color: #fff; }
+
+#plan_section .plan_cont h2 {
+  margin-bottom: 20px; }
+
+#plan_section .plan_cont .lbl {
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+  margin: 5px 0 0; }
+
+#plan_section .plan_cont .plan_item_con {
+  display: flex; }
+
+#plan_section .plan_cont .plan_item {
+  width: 100%;
+  max-width: 350px;
+  background: #763c76;
+  color: #fff;
+  padding: 25px 15px;
+  margin-right: 25px; }
+  #plan_section .plan_cont .plan_item h3 {
+    text-align: center;
+    font-size: 21px;
+    line-height: 100%;
+    font-weight: 300; }
+  #plan_section .plan_cont .plan_item .pricing {
+    text-align: center;
+    margin: 19px 0 0;
+    font-size: 18px;
+    font-weight: 300; }
+  #plan_section .plan_cont .plan_item .btn_signup {
+    width: 100%;
+    display: block;
+    background: #fe5a6b;
+    text-align: center;
+    padding: 10px;
+    max-width: 200px;
+    margin: 20px auto 0;
+    border-radius: 21px;
     color: #fff; }
