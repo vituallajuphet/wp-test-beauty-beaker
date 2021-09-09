@@ -2,13 +2,12 @@
 @session_start();
 get_includes('head');
 get_includes('header');
-get_includes('nav');
 get_includes('banner');
 if(is_front_page()){
     get_includes('middle');
 }
 ?>
-<div id="main">
+<div id="main_area">
 	<div class="wrapper woocommerce">
 		<div class="main_cont">
 			<?php if(!is_front_page()){ ?>
@@ -26,4 +25,5 @@ if(is_front_page()){
 		</div>
 	</div>
 </div>
+
 <?php get_includes('footer'); ?>

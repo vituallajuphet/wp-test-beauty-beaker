@@ -128,6 +128,10 @@ Author: -
 	transition:all 0.3s ease;
 	font-size: 13px;
 	overflow: hidden;
+	background: #fbf8f8;
+	padding: 15px 15px 20px !important;
+	border: 1px solid #e3dfdf;
+
 }
 
 .woocommerce ul.products li:hover{
@@ -142,9 +146,9 @@ Author: -
 
 .woocommerce .shop-img-div{
 	box-shadow: none !important;
-	height: 270px;
+	/* height: 270px; */
 	vertical-align: middle;
-	display: table-cell;
+	/* display: table-cell; */
 	border-radius: 0 !important;
 }
 
@@ -154,6 +158,10 @@ Author: -
 
 a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart.loading{
 	left:0 !important;
+}
+
+.woocommerce .product-title a{
+	display: none;
 }
 
 .woocommerce .product-title a,.woocommerce .product-title{
@@ -166,6 +174,9 @@ a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart.loading{
 .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
 	border: 0 !important;
 	border-radius: 0 !important;
+	font-weight: 300;
+	padding: 10px 30px;
+	font-size: 16px;
 }
 
 .woocommerce .woocommerce-ordering select{

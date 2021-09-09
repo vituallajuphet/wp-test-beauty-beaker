@@ -8,10 +8,7 @@
             </header>
             <nav class='main_nav'>
                 <ul>
-                    <li><a href="#">Sign-Up</a></li>
-                    <li><a href="#">Log-in</a></li>
-                    <li><a href="#">Reviews</a></li>
-                    <li><a href="#">FAQ</a></li>
+                     <?php  wp_nav_menu( array( 'container_class' => 'nav-menu', 'theme_location' => 'primary' )); ?> 
                 </ul>
             </nav>
         </div>
