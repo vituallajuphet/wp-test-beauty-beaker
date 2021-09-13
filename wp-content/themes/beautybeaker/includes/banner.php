@@ -8,7 +8,7 @@
             <div class="brn_info">
                 <h2>The Best Things In Life Are FREE!</h2>
                 <p>Tell us what you think, <span>Get products for FREE!</span></p>
-                <a class="btn_started" href="#">Get Started</a>
+                <a class="btn_started" href="<?= site_url();?>/sign-up/">Get Started</a>
                 <div class="bnr_btm">
                     Already registered? <a href="#" class="login-btn" >Login</a>
                 </div>
