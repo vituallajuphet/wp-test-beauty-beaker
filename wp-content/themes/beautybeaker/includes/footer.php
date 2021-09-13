@@ -23,10 +23,11 @@
                             <h3>
                                 Follow Us
                             </h3>
-                            <div class="ftr_links">
-                                <a href="#">Facebook</a>
-                                <a href="#">Instagram</a>
-                                <a href="#">Twitter</a>
+                            <div class="ftr_links social_lnks">
+                                <a target="_blank" href="https://www.facebook.com"><img src="<?php bloginfo('template_url');?>/images/icons/fb.jpg" alt="facebook"></a>
+                                <a target="_blank" href="https://www.twitter.com"><img src="<?php bloginfo('template_url');?>/images/icons/twit.jpg" alt="twitter"></a>
+                                <a target="_blank" href="https://www.pinterest.com"><img src="<?php bloginfo('template_url');?>/images/icons/pinterest.jpg" alt="pinterest"></a>
+                                <a target="_blank" href="https://www.instagram.com"><img src="<?php bloginfo('template_url');?>/images/icons/insta.jpg" alt="instagram"></a>
                             </div>
                         </div>
                     </div>
