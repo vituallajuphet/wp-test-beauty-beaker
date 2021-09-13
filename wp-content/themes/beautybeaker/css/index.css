@@ -416,11 +416,14 @@ body {
 
 #plan_section .plan_cont .plan_item {
   width: 100%;
-  max-width: 350px;
+  max-width: 311px;
   background: #763c76;
   color: #fff;
   padding: 25px 15px;
   margin-right: 25px; }
+  #plan_section .plan_cont .plan_item figure {
+    max-width: 250px;
+    margin: 0 auto 20px; }
   #plan_section .plan_cont .plan_item h3 {
     text-align: center;
     font-size: 21px;
