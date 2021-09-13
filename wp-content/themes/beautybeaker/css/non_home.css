@@ -21,3 +21,8 @@
     border-bottom: 1px solid gray;
     padding: 0 0 1rem;
 }
+
+.breadcrumbs span[property="itemListElement"] a {
+    color: #8a468a;
+    font-weight: bold;
+}
