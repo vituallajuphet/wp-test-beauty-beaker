@@ -110,3 +110,14 @@
     position: relative;
     background: none;
 }
+
+/* review form */
+.review-form{
+    max-width: 600px;
+    padding: 30px;
+    border: 2px solid #8a468a;
+    margin: 30px auto 0;
+    border-radius: 5px;
+}
+
+/* end review for, */
