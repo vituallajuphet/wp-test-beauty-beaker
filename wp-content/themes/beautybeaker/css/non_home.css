@@ -69,6 +69,11 @@
     .faq  .active, .accordion:hover {
         background-color: #ccc; 
     }
+
+    main a{
+        color: #8a468a;
+        font-weight: bold;
+    }
     
     .faq .panel {
         padding: 20px;
@@ -95,3 +100,13 @@
         opacity: .6;
     }
 /* end accordion */
+
+.non_home{
+    position: relative;
+}
+#banner .banner_cont .non_home figure{
+    width: 1920px;
+    margin-left: -353px;
+    position: relative;
+    background: none;
+}

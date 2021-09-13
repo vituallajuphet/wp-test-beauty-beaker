@@ -1,6 +1,7 @@
 <div id="banner">
     <div class="wrapper">
         <div class="banner_cont">
+           <?php if(is_front_page()) { ?>
             <figure>
                 <img src="<?php bloginfo('template_url');?>/images/slide/slide1.png" alt="woman smiling">
             </figure>
@@ -12,6 +13,13 @@
                     Already registered? <a href="#" class="login-btn" >Login</a>
                 </div>
             </div>
+           <?php } else{ ?>
+                <div class="non_home">
+                    <figure>
+                        <img src="<?php bloginfo('template_url');?>/images/non_home.jpg" alt="products">
+                    </figure>
+                </div> 
+           <?php }?>
         </div>
     </div>
 </div>
