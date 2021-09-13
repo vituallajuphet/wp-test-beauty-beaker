@@ -4,6 +4,7 @@
 
 #main_area .main_cont {
     padding: 30px 0;
+    min-height: 430px;
 }
 
 #main_area .rmagic{
@@ -26,3 +27,71 @@
     color: #8a468a;
     font-weight: bold;
 }
+
+    .faq h3{
+        font-size: 32px;
+        line-height: 100%;
+        margin: 0px 0 27px;
+    }
+
+/* accourduin */
+    .faq .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+        border-bottom: 1px solid #e7e1e7;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .faq .accordion span{
+        color: #8a468a;
+        font-weight: bold;
+    }
+    .faq a{
+        color: #8a468a;
+    }
+    .faq a:hover{
+        text-decoration: underline;
+    }
+
+    .acc_sect.active .panel{
+        display: block;
+    }
+    
+    .faq  .active, .accordion:hover {
+        background-color: #ccc; 
+    }
+    
+    .faq .panel {
+        padding: 20px;
+        line-height: 29px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+        border: 1px solid #e8e8e8;
+        border-top: none;
+    }
+    .btn_started{
+        max-width: 228px;
+        width: 100%;
+        display: block;
+        background: #fe5a6b;
+        text-align: center;
+        padding: 12px 0;
+        border-radius: 21px;
+        color: #fff;
+        margin: 38px auto 21px;
+        transition: all ease-in-out 300ms;
+    }
+    .btn_started:hover{
+        opacity: .6;
+    }
+/* end accordion */
