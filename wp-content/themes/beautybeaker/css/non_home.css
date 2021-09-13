@@ -113,11 +113,11 @@
 
 /* review form */
 .review-form{
-    max-width: 600px;
-    padding: 30px;
-    border: 2px solid #8a468a;
-    margin: 30px auto 0;
-    border-radius: 5px;
+    max-width: 700px;
+    padding: 30px !important;
+    border: 2px solid #8a468a !important;
+    margin: 30px auto 0 !important;
+    border-radius: 5px !important;
 }
 
 /* end review for, */
