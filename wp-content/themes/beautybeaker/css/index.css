@@ -402,8 +402,9 @@ body {
             display: block;
             margin-right: 6px; }
             #footer .ftr_top .ftrtop_cont .row-cont .social_lnks a img {
-              width: 50px;
-              height: 50px; }
+              width: 36px;
+              height: 36px;
+              border-radius: 50%; }
   #footer .ftr_btm {
     text-align: center;
     background-color: #763c76;
