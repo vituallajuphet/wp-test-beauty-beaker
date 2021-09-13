@@ -47,4 +47,22 @@ $(document).ready(function(){
     $(window).resize(resizeWindowCallBack)
 
     resizeWindowCallBack()
+
+    // accourdion
+    $(".acc_sect .accordion").click(function(){
+        if(!$(this).closest(".acc_sect").hasClass("active")){
+            acc_callback();
+            $(this).closest(".acc_sect").addClass("active")
+            $(this).find("i").removeClass("fa-chevron-down").addClass("fa-chevron-up")
+        }
+        else{
+            acc_callback();
+        }
+    })
+
+    const acc_callback = () => {
+        $(".acc_sect").removeClass("active")
+        $(".acc_sect i").removeClass("fa-chevron-up").addClass("fa-chevron-down")
+    }
+    // end accordion
 })
