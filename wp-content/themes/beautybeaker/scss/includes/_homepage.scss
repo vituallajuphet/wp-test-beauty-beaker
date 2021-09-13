@@ -13,6 +13,9 @@
             max-width: 176px;
         }
     }
+    .mobileBar{
+        display: none;
+    }
 
     .main_nav{
         ul{
@@ -27,6 +30,35 @@
             }
         }
     }
+    .mobileClose{
+        display: none;
+        position: absolute;
+        top: 25px;
+        right: 20px;
+        font-size: 30px;
+        color: #c4c1c1;
+        cursor: pointer;
+        z-index: 123123;
+        &:hover{
+            opacity: .6;
+        }
+    }
+
+    .navfixed{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 123123123;
+        padding: 74px 15px 0;
+        display: block;
+        background: rgba(0, 0, 0, 0.97);
+        .mobileClose{
+            display: block!important;
+        }
+    }
+
 }
 
 

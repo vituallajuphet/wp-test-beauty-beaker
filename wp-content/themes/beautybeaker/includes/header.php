@@ -7,10 +7,14 @@
                 </div>
             </header>
             <nav class='main_nav'>
+                <span class="mobileClose"><i class='fas fa-times'></i></span>
                 <ul>
                      <?php  wp_nav_menu( array( 'container_class' => 'nav-menu', 'theme_location' => 'primary' )); ?> 
                 </ul>
             </nav>
+            <div class="mobileBar">
+                    <a href="#"><i class='fas fa-bars'></i></a>
+                </div>
         </div>
     </div>
 </div>
