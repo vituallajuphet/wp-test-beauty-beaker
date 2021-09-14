@@ -827,6 +827,7 @@ a.remove.checkout_remove {
 .woo-cart .woocommerce{
 	display: flex;
 	justify-content: flex-start;
+	flex-wrap: wrap;
 }
 /* .woocommerce-MyAccount-navigation:after{
 	width: 1px;
@@ -864,7 +865,7 @@ a.remove.checkout_remove {
 
 .woocommerce-MyAccount-content{
 	margin:0;
-	width: 100%;
+	width: 68%;
 	border-left: 1px solid #f0e6e6;
 	padding-left: 20px;
 }
@@ -1118,6 +1119,7 @@ div#customer_login .button:hover,
 
 {
    border-color: #58595b !important;
+   width: 100%;
 }
 
 /* Icon */
