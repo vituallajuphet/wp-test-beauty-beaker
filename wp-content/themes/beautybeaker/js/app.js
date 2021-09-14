@@ -21,16 +21,21 @@ $(document).ready(function(){
 
     let winWid = $(window).width();
 
+    const currentStep = 0;
+
     const resizeWindowCallBack = () => {
         winWid = $(window).width();
-        // if(winWid <= 800){
-        //     $(".main_nav").addClass("navfixed")
-        // }else{
-        //     $(".main_nav").removeClass("navfixed")
-        // }
-        
-    }
+        if(winWid <= 650){
+            $(".main_inner .m-item").hide()
+            $(".main_inner .m-item:eq("+currentStep+")").show()
 
+        }else{
+            $(".main_inner .m-item").show()
+        }
+    }
+    
+    
+    
     $(window).resize(resizeWindowCallBack)
 
     resizeWindowCallBack()
@@ -51,5 +56,9 @@ $(document).ready(function(){
         $(".acc_sect").removeClass("active")
         $(".acc_sect i").removeClass("fa-chevron-up").addClass("fa-chevron-down")
     }
+
+
+    $(".woocommerce-shipping-fields, .woocommerce-additional-fields").remove()
+    
     // end accordion
 })

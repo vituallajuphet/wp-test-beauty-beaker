@@ -22,10 +22,18 @@
             display: flex;
             justify-content: flex-end;
             li{
+                &.current-menu-item{
+                    a{
+                        text-decoration: underline;
+                    }
+                }
                 margin-left: 36px;
                 a{
                     color: #222;
                     font-size: 18px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
                 }
             }
         }
@@ -329,6 +337,7 @@
         }
         main{        
             .main_inner{
+                position: relative;
                 display: flex;
                 justify-content: center;
                 justify-content: space-evenly;
@@ -356,6 +365,18 @@
                         font-size: 22px;
                         font-weight: 300;
                       }
+                    }
+                }
+                .mainpager{
+                    display: none;
+                    .mainArrow{
+                        position: absolute;
+                    }
+                    .pagePrev{
+                        left: 0;
+                    }
+                    .pageNext{
+                        right:0;
                     }
                 }
             }

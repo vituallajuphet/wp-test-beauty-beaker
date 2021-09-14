@@ -97,8 +97,20 @@
     #section1 .sec1_cont h2 {
         font-size: 33px;
     }
+
+    #main_area .main_cont main .main_inner img{
+        max-width: 193px;
+    }
+    #main_area .main_cont main .main_inner .m-item h2, #main_area .main_cont main .main_inner .m-item h2 span{
+        font-size: 19px;
+    }
 }
 
+@media screen and (max-width: 650px) {
+    #main_area .main_cont main .main_inner .mainpager{
+        display: block;
+    }
+}
 
 @media screen and (max-width: 600px) {
     #banner .banner_cont .brn_info h2 {

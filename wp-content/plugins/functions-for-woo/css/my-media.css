@@ -140,6 +140,13 @@
       display: inline-block !important;;
 
    }
+   .woocommerce-MyAccount-content{
+    padding: 0 15px;
+   }
+
+   .woo-cart .woocommerce{
+     flex-direction: column;
+   }
   .woocommerce-MyAccount-content{
     width: 100% !important;
   }
