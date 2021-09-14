@@ -13,6 +13,7 @@
 	<?php if(!is_front_page()){ ?>
 	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/non_home.css">
 	<?php } ?>
+	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/lib/animations.css">
 	<!-- <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/lib/rslider.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/lib/animations.css"> -->
 	<?php wp_head(); ?>

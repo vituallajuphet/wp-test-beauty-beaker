@@ -1,10 +1,11 @@
 @media screen and (max-width: 1400px) {
     #banner .banner_cont figure {
         width: 1400px;
-        margin-left: -145px;
+        margin-left: -132px;
         position: relative;
         background: #eee342;
     }
+    #banner .banner_cont{min-height: unset;}
     #banner .banner_cont .brn_info {
         top: 0px;
         left: 0;
@@ -26,6 +27,10 @@
     #header_nav_cont .hdr_cont{
         padding: 0 15px;
     }
+
+    #section1 .sec1_cont{
+        padding: 50px 15px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
@@ -45,8 +50,22 @@
         margin-left: 0px;
         margin-left: -15%;
     }
+    
 }
 
+
+@media screen and (max-width: 900px) {
+    #section1 .sec1_cont .sec1_inner{
+        flex-direction: column-reverse;
+    }
+    #section1 .sec1_cont .sec1_inner img {
+        margin: 0 0 44px;
+    }
+    #section1 .sec1_cont .sec1_inner .sec1_left{
+        margin-right: 0;
+    }
+    
+}
 @media screen and (max-width: 800px) {
     #header_nav_cont .main_nav ul{
         flex-direction: column;
@@ -69,6 +88,15 @@
         display: block;
         
     }
+    #header_nav_cont #header .logo{
+        max-width: 140px;
+    }
+    #header_nav_cont .hdr_cont {
+        padding: 8px 15px;
+    }
+    #section1 .sec1_cont h2 {
+        font-size: 33px;
+    }
 }
 
 
@@ -88,7 +116,13 @@
     #banner .banner_cont .brn_info .btn_started{
         margin: 20px auto 21px;
     }
-    
+    #section1 .sec1_cont p {
+        font-size: 16px;
+        line-height: 29px;
+    }
+    #section1 .sec1_cont {
+        padding: 40px 15px;
+    }
 }
 
 @media screen and (max-width: 570px) {
