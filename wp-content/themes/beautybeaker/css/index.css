@@ -110,6 +110,9 @@ body {
   margin: 0 auto;
   position: relative; }
 
+html, body {
+  overflow-x: hidden; }
+
 #header_nav_cont {
   background-color: #fff;
   color: 222; }
@@ -439,9 +442,11 @@ body {
 @media screen and (max-width: 1400px) {
   #banner .banner_cont figure {
     width: 1400px;
-    margin-left: -145px;
+    margin-left: -132px;
     position: relative;
     background: #eee342; }
+  #banner .banner_cont {
+    min-height: unset; }
   #banner .banner_cont .brn_info {
     top: 0px;
     left: 0;
@@ -458,7 +463,9 @@ body {
 
 @media screen and (max-width: 1220px) {
   #header_nav_cont .hdr_cont {
-    padding: 0 15px; } }
+    padding: 0 15px; }
+  #section1 .sec1_cont {
+    padding: 50px 15px; } }
 
 @media screen and (max-width: 1000px) {
   #banner .banner_cont .brn_info {
@@ -471,6 +478,14 @@ body {
     margin: 0;
     margin-left: 0px;
     margin-left: -15%; } }
+
+@media screen and (max-width: 900px) {
+  #section1 .sec1_cont .sec1_inner {
+    flex-direction: column-reverse; }
+  #section1 .sec1_cont .sec1_inner img {
+    margin: 0 0 44px; }
+  #section1 .sec1_cont .sec1_inner .sec1_left {
+    margin-right: 0; } }
 
 @media screen and (max-width: 800px) {
   #header_nav_cont .main_nav ul {
@@ -487,7 +502,13 @@ body {
   .main_nav {
     display: none; }
   #header_nav_cont .mobileBar {
-    display: block; } }
+    display: block; }
+  #header_nav_cont #header .logo {
+    max-width: 140px; }
+  #header_nav_cont .hdr_cont {
+    padding: 8px 15px; }
+  #section1 .sec1_cont h2 {
+    font-size: 33px; } }
 
 @media screen and (max-width: 600px) {
   #banner .banner_cont .brn_info h2 {
@@ -500,7 +521,12 @@ body {
     font-size: 16px;
     line-height: 29px; }
   #banner .banner_cont .brn_info .btn_started {
-    margin: 20px auto 21px; } }
+    margin: 20px auto 21px; }
+  #section1 .sec1_cont p {
+    font-size: 16px;
+    line-height: 29px; }
+  #section1 .sec1_cont {
+    padding: 40px 15px; } }
 
 #plan_section .plan_cont h2 {
   margin-bottom: 20px; }
