@@ -7,7 +7,7 @@
                     <figure><img src="<?=site_url()?>//wp-content/uploads/2021/09/sample-product-1.jpg" alt="product image"></figure>
                     <h3>Get products for free</h2>
                     <div class="pricing">$0.00 / Month </div>
-                    <a class="btn_signup" href="<?=site_url()?>/products/?add-to-cart=38">Sign Up Now</a>
+                    <a class="btn_signup" href="<?=site_url()?>/products/?add-to-cart=69">Sign Up Now</a>
                 </div>
             </div>
         </div>
