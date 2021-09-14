@@ -810,20 +810,25 @@ a.remove.checkout_remove {
 }
 
 .woocommerce-MyAccount-navigation{
-	display: inline-block;
+	/* display: inline-block; */
 	width: 30%;
 	margin:0;
 	height: auto;
 	text-align: left;
-	float: left;
+	
 	margin-bottom: 2em;
 	position:relative;
 	background: none !important;
    right: 0 !important;
    opacity: 1 !important;
+   margin-right: 15px;
 }
 
-.woocommerce-MyAccount-navigation:after{
+.woo-cart .woocommerce{
+	display: flex;
+	justify-content: flex-start;
+}
+/* .woocommerce-MyAccount-navigation:after{
 	width: 1px;
 	height: 193px;
 	background: #eee;
@@ -832,7 +837,7 @@ a.remove.checkout_remove {
 	position:absolute;
 	right: 40px;
 	top: 36px;
-}
+} */
 
 .woocommerce-MyAccount-navigation ul{
 	background:none !important;
@@ -840,6 +845,8 @@ a.remove.checkout_remove {
 .woocommerce-MyAccount-navigation ul li{
 	margin:0 !important;
 	width: 100%;
+	border-bottom: 1px solid #f0eeee;
+	padding: 0 10px;
 }
 
 .woocommerce-MyAccount-navigation ul li a{
@@ -856,10 +863,13 @@ a.remove.checkout_remove {
 
 
 .woocommerce-MyAccount-content{
-	display:inline-block;
 	margin:0;
-	width: 70%;
+	width: 100%;
+	border-left: 1px solid #f0e6e6;
+	padding-left: 20px;
 }
+
+
 
 /* ======= Login Page ===============*/
 
@@ -1220,6 +1230,12 @@ div#customer_login .button:hover,
 	color: red;
 }
 
+.woocommerce-MyAccount-navigation ul li.is-active{
+	background: #8a468a;
+}
+.woocommerce-MyAccount-navigation ul li.is-active a{
+	color: #fff!important;
+}
 
 
 

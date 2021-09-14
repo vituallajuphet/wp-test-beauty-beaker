@@ -15,6 +15,10 @@
         <span>Step 3</span>
         <h2>Provide <span>Feedback & Review</span></h2>
     </div>
+    <div class="mainpager">
+        <a class='pagePrev mainArrow' href="#"><i class='fas fa-chevron-left'></i></a>
+        <a class='pageNext mainArrow' href="#"><i class='fas fa-chevron-right'></i></a>
+    </div>
 </div>
 <div class="main_btm">
     <a class="btn_get btn-site" href="<?= site_url()?>/sign-up">Get Started</a>

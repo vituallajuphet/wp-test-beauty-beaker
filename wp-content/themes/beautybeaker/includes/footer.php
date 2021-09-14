@@ -13,10 +13,9 @@
                                 Useful links
                             </h3>
                             <div class="ftr_links">
-                            <!-- <?php// wp_nav_menu( array( 'theme_location' => 'fourth') ); ?> -->
-                                <a href="">My Account</a>
-                                <a href="">Reviews</a>
-                                <a href="">FAQ</a>
+                                <ul>
+                                   <?php wp_nav_menu( array( 'theme_location' => 'secondary') ); ?> 
+                                </ul>
                             </div>
                         </div>
                         <div class="row-cont">

@@ -121,6 +121,7 @@ if (PRODUCT_GALLERY) {
 	}
 	add_action( 'wp_enqueue_scripts', 'my_gallery_script',20,1);
 }
+add_filter( 'woocommerce_ship_to_different_address_checked', '__return_false' );
 
 /********************************* Woo new features ************************************/
 add_action( 'after_setup_theme', 'yourtheme_setup' );
@@ -174,6 +175,20 @@ function custom_login_message() {
      <?php
      }
 }
+
+//Change the 'Billing details' checkout label to 'Contact Information'
+function wc_billing_field_strings( $translated_text, $text, $domain ) {
+   switch ( $translated_text ) {
+   case 'Billing details' :
+   $translated_text = __( 'Contact Information', 'woocommerce' );
+   break;
+   }
+   return $translated_text;
+   }
+add_filter( 'gettext', 'wc_billing_field_strings', 20, 3 );
+
+
+
 
 // Custom registration fields
 add_action( 'woocommerce_register_form_start', 'woo_extra_register_fields' );
