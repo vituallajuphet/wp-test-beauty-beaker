@@ -23,6 +23,9 @@ if(is_front_page()){
 				<?php if(is_front_page()){ ?>
 					<?php get_includes('main_section'); ?>
 			   <?php } ?>
+			   <?php if(is_page(156)){ ?>
+				<?php get_includes('membership_section'); ?>
+			   <?php }?>
 			   <?php if(is_page(56)){ ?>
 				<?php get_includes('plan_section'); ?>
 			   <?php } else{ ?>

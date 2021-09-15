@@ -129,4 +129,77 @@
     margin: 0 0 33px;
 }
 
+.member_section{
+    
+}
+
+.member_item{
+    border: 1px solid gray;
+    max-width: 400px;
+    background: #8a468a;
+    color: #fff;
+    padding: 27px 22px;
+    border-radius: 6px;
+    margin: 0 auto 20px;
+}
+.mem_top{
+    display: flex;
+    align-items: center;
+}
+
+.mem_top h3{
+    font-size: 44px;
+    font-weight: 300;
+    font-family: Open Sans;
+    line-height: 100%;
+    margin-right: 23px;
+    position: relative;
+}
+.mem_top h3::before{
+    content: '';
+    width: 1px;
+    height: 27px;
+    background-color: #fff;
+    position: absolute;
+    right: -11px;
+    top: 10px;
+}
+
+.member_item img{
+
+}
+.mem_label{
+
+}
+.mem_label span{
+    display: block;
+}
+
+.no-limit{
+    display: block;
+    margin: 18px 0 14px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.member_cont h2{
+    margin: 37px 0 34px;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+}
+
+.member-link{
+    color: #8a468a;
+    background: #fff;
+    display: block;
+    text-align: center;
+    margin: 15px auto 0;
+    padding: 15px 0;
+    max-width: 348px;
+    transition: all ease-in-out 300ms;
+}
+.member-link:hover{
+    opacity: .5;
+}
+
 /* end review for, */
