@@ -357,11 +357,20 @@ add_action('template_redirect', 'wpse_131562_redirect');
 
 // send email to admin register
 
-/**
- * Send "New User Registration" email to admins when new customer is created on WooCommerce.
- * 
- * @param int $id New customer ID.
- */
+add_filter( 'wp_new_user_notification_email', 'custom_wp_new_user_notification_email', 10, 3 );
+
+function custom_wp_new_user_notification_email( $wp_new_user_notification_email, $user, $blogname ) {
+    $key = get_password_reset_key( $user );
+    $message = sprintf(__('New user registration on your site '.$blogname)) . "\r\n\r\n";
+    $message .= sprintf( __( 'Email: %s' ), $user->user_email ) . "\r\n";
+    $message .= sprintf( __( 'Full Name: %s' ), $user->display_name ) . "\r\n";
+    $wp_new_user_notification_email['message'] = $message;
+
+
+    return $wp_new_user_notification_email;
+}
+
+
 function my_wc_customer_created_notification( $id ) {
 	wp_new_user_notification( $id, null, 'admin' );
 }
