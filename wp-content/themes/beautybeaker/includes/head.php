@@ -18,10 +18,11 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/lib/animations.css"> -->
 
 	<?php
-		if(is_page(141) && is_user_logged_in()){
-			wp_redirect(site_url()."/my-account");
-			exit();
-		}
+		if(is_page(141) && is_user_logged_in()){?>
+			<script>
+				window.location.replace("<?=site_url()?>/my-account");
+			</script>
+		<?php }
 	?>
 
 	<?php wp_head(); ?>
