@@ -120,4 +120,13 @@
     border-radius: 5px !important;
 }
 
+.page-violet-heading{
+    background: #8a468a;
+    color: #fff;
+    text-align: center;
+    padding: 19px 2px;
+    font-size: 24px;
+    margin: 0 0 33px;
+}
+
 /* end review for, */
