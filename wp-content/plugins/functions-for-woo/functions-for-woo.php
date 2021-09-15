@@ -342,6 +342,18 @@ function bbloomer_separate_registration_form() {
 }
 // end reguster
 
+// redirect if not loggin
+function wpse_131562_redirect() {
+   if (
+       ! is_user_logged_in()
+       && (is_cart() || is_checkout())
+   ) {
+       // feel free to customize the following line to suit your needs
+       wp_redirect('register-2');
+       exit;
+   }
+}
+add_action('template_redirect', 'wpse_131562_redirect');
 
 // Modifying checkout fields
 
