@@ -19,9 +19,8 @@
 
 	<?php
 		if(is_page(141) && is_user_logged_in()){
-			echo 1123123;
-			exit;
 			wp_redirect(site_url()."/my-account");
+			exit();
 		}
 	?>
 
