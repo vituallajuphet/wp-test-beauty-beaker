@@ -355,6 +355,21 @@ function wpse_131562_redirect() {
 }
 add_action('template_redirect', 'wpse_131562_redirect');
 
+// send email to admin register
+
+/**
+ * Send "New User Registration" email to admins when new customer is created on WooCommerce.
+ * 
+ * @param int $id New customer ID.
+ */
+function my_wc_customer_created_notification( $id ) {
+	wp_new_user_notification( $id, null, 'admin' );
+}
+
+add_action( 'woocommerce_created_customer', 'my_wc_customer_created_notification' );
+
+
+
 // Modifying checkout fields
 
 add_filter( 'woocommerce_review_order_before_payment' , 'payment_detail_text' );
