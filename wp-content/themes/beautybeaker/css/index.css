@@ -667,3 +667,9 @@ input[type="radio"] {
   margin: 23px 0 24px;
   font-size: 15px;
   font-style: italic; }
+
+.create-acc {
+  font-size: 20px;
+  margin: 0 0 10px;
+  line-height: 30px;
+  color: #955795; }

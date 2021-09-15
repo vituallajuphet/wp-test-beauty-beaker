@@ -13,6 +13,7 @@ $(document).ready(function(){
         We agree to keep your personal information confidential.
         </div>
     `
-
     $(".afreg_extra_fields").after(htmlFooter)
+
+    $(".woocommerce-form-register").prepend("<h5 class='create-acc'>Create Log-In Information<h5>")
 })
