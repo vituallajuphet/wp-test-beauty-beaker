@@ -16,6 +16,13 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/lib/animations.css">
 	<!-- <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/lib/rslider.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/lib/animations.css"> -->
+
+	<?php
+		if(is_page(141) && is_user_logged_in()){
+			wp_redirect(site_url()."/my-account");
+		}
+	?>
+
 	<?php wp_head(); ?>
 </head>
 <body>

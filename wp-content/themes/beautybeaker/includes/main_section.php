@@ -21,5 +21,5 @@
     </div>
 </div>
 <div class="main_btm">
-    <a class="btn_get btn-site" href="<?= site_url()?>/sign-up">Get Started</a>
+    <a class="btn_get btn-site" href="<?= site_url()?>/register-2">Get Started</a>
 </div>

@@ -42,9 +42,11 @@
 <!-- e -->
     </div>
     <script src='<?php bloginfo('template_url');?>/js/jquery.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script>
     <script src='<?php bloginfo('template_url');?>/js/rslider.js'></script>
     <script src='<?php bloginfo('template_url');?>/js/css3-animate-it.js'></script>
     <script src='<?php bloginfo('template_url');?>/js/app.js'></script>
+    <script src='<?php bloginfo('template_url');?>/js/checkout.js'></script>
     <?php wp_footer(); ?>
 </body>
 </html>

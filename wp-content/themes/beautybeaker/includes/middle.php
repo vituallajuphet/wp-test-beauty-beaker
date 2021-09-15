@@ -10,7 +10,7 @@
                         <p>Don’t miss out - there is limited number of products I can send out, so please reserve your spot now. 
                         </p>
                         <p class="david-name">- David Pollock, <span>Your Beauty Authority</span></p>
-                        <a class="btn_started" href="<?= site_url()?>/sign-up">CLICK HERE TO GET STARTED</a>
+                        <a class="btn_started" href="<?= site_url()?>/register-2">CLICK HERE TO GET STARTED</a>
                     </div>
                 </div>
                 <img src="<?php bloginfo('template_url');?>/images/david.jpg" alt="i">

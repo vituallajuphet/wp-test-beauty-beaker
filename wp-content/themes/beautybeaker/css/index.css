@@ -113,6 +113,9 @@ body {
 html, body {
   overflow-x: hidden; }
 
+input[type="radio"] {
+  -webkit-appearance: radio !important; }
+
 #header_nav_cont {
   background-color: #fff;
   color: 222; }
@@ -591,3 +594,76 @@ html, body {
     margin: 20px auto 0;
     border-radius: 21px;
     color: #fff; }
+
+.woo-cart h2 {
+  font-size: 37px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  line-height: 100%; }
+
+.woocommerce-form-login {
+  margin: 29px auto 20px !important; }
+
+.woocommerce-form-register {
+  width: 100%;
+  border: 1px solid #e1dddd !important;
+  padding: 20px !important;
+  max-width: 600px;
+  margin: 0 auto !important; }
+  .woocommerce-form-register label {
+    margin-bottom: 7px;
+    display: block; }
+  .woocommerce-form-register input[type='text'], .woocommerce-form-register input[type='email'], .woocommerce-form-register input[type='password'], .woocommerce-form-register select {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: normal; }
+  .woocommerce-form-register .form-row {
+    margin-bottom: 9px; }
+  .woocommerce-form-register select {
+    padding: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 18px; }
+
+#billing_country_field label {
+  font-size: 20px;
+  margin: 24px 0 13px;
+  line-height: 30px;
+  color: #955795; }
+
+.afreg_radio {
+  font-size: 14px; }
+
+.signup-heading {
+  font-size: 37px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  line-height: 100%;
+  margin-bottom: 27px; }
+
+.woocommerce-form-register .woocommerce-Button {
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid aliceblue;
+  font-family: inherit;
+  padding: 14px;
+  background: #955795;
+  color: #fff;
+  font-size: 16px; }
+  .woocommerce-form-register .woocommerce-Button:hover {
+    opacity: .6; }
+
+.woocommerce-form-register .afreg_extra_fields label {
+  font-size: 20px;
+  line-height: 30px;
+  color: #955795; }
+
+.woocommerce-form-register .reg-footer-text {
+  margin: 23px 0 24px;
+  font-size: 15px;
+  font-style: italic; }

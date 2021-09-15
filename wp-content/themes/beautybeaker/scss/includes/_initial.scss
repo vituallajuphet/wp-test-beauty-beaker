@@ -48,3 +48,7 @@ html, body{
 }
 
 $pri_color:#58585a;
+
+input[type="radio"]{
+    -webkit-appearance: radio!important;
+}
