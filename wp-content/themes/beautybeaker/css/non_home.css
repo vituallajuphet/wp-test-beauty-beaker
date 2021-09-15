@@ -29,9 +29,12 @@
 }
 
     .faq h3{
-        font-size: 32px;
-        line-height: 100%;
-        margin: 0px 0 27px;
+        background: #8a468a;
+        color: #fff;
+        text-align: center;
+        padding: 19px 2px;
+        font-size: 24px;
+        margin: 0 0 33px;
     }
 
 /* accourduin */
