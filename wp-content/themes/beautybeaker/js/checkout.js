@@ -16,4 +16,6 @@ $(document).ready(function(){
     $(".afreg_extra_fields").after(htmlFooter)
 
     $(".woocommerce-form-register").prepend("<h5 class='create-acc'>Create Log-In Information<h5>")
+
+    $(".woocommerce-MyAccount-content .reg-footer-text").remove()
 })
