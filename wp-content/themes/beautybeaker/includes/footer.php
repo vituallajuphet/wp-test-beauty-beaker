@@ -30,11 +30,22 @@
                             </div>
                         </div>
                     </div>
+                    <div class='safe-promise'>
+                        <h5>Our Safety Promise </h5>
+                        <div class="icon-conts">
+                            <img src="<?php bloginfo('template_url');?>/images/icons/f1.webp" alt="plastic free">
+                            <img src="<?php bloginfo('template_url');?>/images/icons/f2.webp" alt="plastic free">
+                            <img src="<?php bloginfo('template_url');?>/images/icons/f3.webp" alt="plastic free">
+                            <img src="<?php bloginfo('template_url');?>/images/icons/f4.webp" alt="plastic free">
+                            <img src="<?php bloginfo('template_url');?>/images/icons/f5.webp" alt="plastic free">
+                            <img src="<?php bloginfo('template_url');?>/images/icons/f6.webp" alt="plastic free">   
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="ftr_btm">
                 <div class="wrapper">
-                    Copyright © 2020 Beauty Beaker. All rights reserved. Terms of Use | Privacy Policy
+                    Copyright © 2021 Beauty Beaker. All rights reserved.
                 </div>
             </div>
             </div>
