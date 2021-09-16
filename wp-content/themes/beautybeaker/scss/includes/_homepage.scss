@@ -37,6 +37,31 @@
                 }
             }
         }
+
+        .nav-cart-cont{
+            display: flex;
+            align-items: center;
+            .cart-cont{
+                position: relative;
+                margin-left: 42px;
+                font-size: 22px;
+                i{
+                    color: #8a468a;
+                }
+                .cart-num{
+                    position: absolute;
+                    font-size: 14px;
+                    background: #fe6877;
+                    width: 16px;
+                    height: 17px;
+                    border-radius: 50%;
+                    top: -3px;
+                    right: -8px;
+                    color: #fff;
+                    padding-left: 4px;
+                }
+            }
+        }
     }
     .mobileClose{
         display: none;
