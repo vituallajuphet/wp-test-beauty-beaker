@@ -132,12 +132,12 @@ input[type="radio"] {
     display: flex;
     justify-content: flex-end; }
     #header_nav_cont .main_nav ul li {
-      margin-left: 36px; }
+      margin-left: 26px; }
       #header_nav_cont .main_nav ul li.current-menu-item a {
         text-decoration: underline; }
       #header_nav_cont .main_nav ul li a {
         color: #222;
-        font-size: 18px; }
+        font-size: 15px; }
         #header_nav_cont .main_nav ul li a:hover {
           text-decoration: underline; }
   #header_nav_cont .main_nav .nav-cart-cont {
