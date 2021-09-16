@@ -107,4 +107,62 @@
     border: 1px solid #d17979;
     padding: 11px;
     font-size: 20px;
+    
+}
+
+.membership-product-actions{
+    a{
+            margin-bottom: 5px!important;
+    }
+}
+
+.woocommerce table.my_account_orders .button{
+    margin-bottom: 5px!important;
+}
+
+.woocommerce table.my_account_orders td, .membership-discount-actions td{
+    padding: 9px 8px!important;
+}
+
+.woocommerce table.shop_table th{
+    padding: 8px!important;
+    color: #8a468a;
+    font-size: 16px!important;
+}
+
+.woocommerce-MyAccount-content h2{
+    font-size: 23px!important;
+    color: #8a468a;
+    text-align: left;
+}
+
+.woocommerce-Address-title{
+    h3{
+        font-size: 20px;
+        color: #8a468a;
+        font-weight: bold;
+        margin: 5px 0 15px;
+    }
+}
+
+.woocommerce-Address{
+    address{
+        margin: 12px 0 0;
+        font-size: 17px;
+        line-height: 28px;
+    }
+}
+
+.woocommerce-Button{
+    margin-top: 10px!important;
+}
+
+.woocommerce-MyAccount-content .afreg_extra_fields{
+    label{
+        font-size: 20px; margin-bottom: 15px;
+        font-size: 17px;
+        margin-bottom: 5px;
+        color: #8a468a;
+        font-weight: bold;
+    }
 }
