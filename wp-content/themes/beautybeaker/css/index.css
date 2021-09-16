@@ -435,7 +435,7 @@ input[type="radio"] {
 #footer {
   background: #fff; }
   #footer .ftr_top {
-    padding: 7rem 0; }
+    padding: 3rem 0; }
     #footer .ftr_top .ftrtop_cont {
       display: flex; }
       #footer .ftr_top .ftrtop_cont .ftrlogo {
@@ -469,6 +469,24 @@ input[type="radio"] {
               width: 36px;
               height: 36px;
               border-radius: 50%; }
+    #footer .ftr_top .safe-promise {
+      text-align: center;
+      margin: 42px 0px 0;
+      border-top: 1px solid #e8e3e3;
+      padding-top: 34px; }
+      #footer .ftr_top .safe-promise h5 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 16px; }
+      #footer .ftr_top .safe-promise .icon-conts {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+      #footer .ftr_top .safe-promise img {
+        max-width: 50px;
+        margin-left: 7px; }
+        #footer .ftr_top .safe-promise img:first-child {
+          margin-left: 0; }
   #footer .ftr_btm {
     text-align: center;
     background-color: #763c76;
