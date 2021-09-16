@@ -140,6 +140,26 @@ input[type="radio"] {
         font-size: 18px; }
         #header_nav_cont .main_nav ul li a:hover {
           text-decoration: underline; }
+  #header_nav_cont .main_nav .nav-cart-cont {
+    display: flex;
+    align-items: center; }
+    #header_nav_cont .main_nav .nav-cart-cont .cart-cont {
+      position: relative;
+      margin-left: 42px;
+      font-size: 22px; }
+      #header_nav_cont .main_nav .nav-cart-cont .cart-cont i {
+        color: #8a468a; }
+      #header_nav_cont .main_nav .nav-cart-cont .cart-cont .cart-num {
+        position: absolute;
+        font-size: 14px;
+        background: #fe6877;
+        width: 16px;
+        height: 17px;
+        border-radius: 50%;
+        top: -3px;
+        right: -8px;
+        color: #fff;
+        padding-left: 4px; }
   #header_nav_cont .mobileClose {
     display: none;
     position: absolute;
