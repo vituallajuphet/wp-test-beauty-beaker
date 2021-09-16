@@ -20,6 +20,7 @@ if(is_front_page()){
 				</div>
 			<?php } ?>
 			<main>
+				<?php echo (!is_user_logged_in() && is_cart()) ? "<div class='err-member'>You need to sign-up first before checking out. <a href='".site_url()."/register-2'>Click here to Register</a></div>": "" ?>
 				<?php if(is_front_page()){ ?>
 					<?php get_includes('main_section'); ?>
 			   <?php } ?>

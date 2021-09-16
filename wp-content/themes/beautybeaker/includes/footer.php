@@ -48,5 +48,7 @@
     <script src='<?php bloginfo('template_url');?>/js/app.js'></script>
     <script src='<?php bloginfo('template_url');?>/js/checkout.js'></script>
     <?php wp_footer(); ?>
+
+    <!-- DEVELOPED BY: JUPHET VITUALLA -->
 </body>
 </html>
