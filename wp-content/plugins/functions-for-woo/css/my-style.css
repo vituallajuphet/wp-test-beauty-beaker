@@ -1041,7 +1041,7 @@ div#customer_login h2:after
    outline: none !important;
 	transition: all 0.3s ease;
 	color:#fff !important;
-   background: #58595b !important;
+   background: #8a468a !important;
 }
 
 
@@ -1087,7 +1087,7 @@ div#customer_login .button:hover,
 
 {
    transition: all 0.3s ease;
-   color: #58595b !important;
+   color: #8a468a !important;
 }
 
 .woocommerce .woocommerce-product-details__short-description p{font-size: 15px!important;line-height: 22px !important;}
@@ -1117,7 +1117,7 @@ div#customer_login .button:hover,
 .woocommerce-info
 
 {
-   border-color: #58595b !important;
+   border-color: #8a468a !important;
    width: 100%;
 }
 
@@ -1127,18 +1127,18 @@ div#customer_login .button:hover,
 .woocommerce-info:before
 
 {
-   color: #58595b !important;
+   color: #8a468a !important;
 }
 
 
 /* SALE badge color */
 .woocommerce span.onsale{
-   background: #58595b !important;
+   background: #8a468a !important;
    color: #fff !important;
 }
 
 .woocommerce span.onsale:after{
-	border-color: #58595b;
+	border-color: #8a468a;
 }
 
 /* SOLD badge color */
@@ -1153,8 +1153,8 @@ div#customer_login .button:hover,
 
 /* CART and SINGLE pages - plus|minus buttons */
 .woocommerce .quantity .quantity_btn:hover{
-	background:#58595b;
-   border-color: #58595b;
+	background:#8a468a;
+   border-color: #8a468a;
 	color: #fff;
 }
 
@@ -1197,7 +1197,7 @@ div#customer_login .button:hover,
 
 .woocommerce ul.products li.product .price, 
 .woocommerce div.product p.price
-{color: #58595b!important;}
+{color: #8a468a!important;}
 
 /*For Reviews*/
 
