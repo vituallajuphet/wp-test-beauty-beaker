@@ -31,8 +31,8 @@
                 &.menu-item-has-children{
                     &:hover{
                         ul.sub-menu{
-                            display: flex;
                             opacity: 1;
+                            height: auto;
                         }
                     }
                 }
@@ -57,7 +57,7 @@
                 padding: 12px 0;
                 transition:  all ease-in-out 300ms;
                 opacity: 0;
-                display: none;
+                height: 0;
                 li{
                     padding: 5px 0;
                     margin: 0 33px 0;
