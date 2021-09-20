@@ -22,9 +22,18 @@
             display: flex;
             justify-content: flex-end;
             li{
+                padding: 28px 0;
                 &.current-menu-item{
                     a{
                         text-decoration: underline;
+                    }
+                }
+                &.menu-item-has-children{
+                    &:hover{
+                        ul.sub-menu{
+                            display: flex;
+                            opacity: 1;
+                        }
                     }
                 }
                 margin-left: 26px;
@@ -34,6 +43,25 @@
                     &:hover{
                         text-decoration: underline;
                     }
+                }
+            }
+            ul.sub-menu{
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                background: #8a468a;
+                width: 100%;
+                left: 0;
+                top: 79px;
+                z-index: 123;
+                padding: 12px 0;
+                transition:  all ease-in-out 300ms;
+                opacity: 0;
+                display: none;
+                li{
+                    padding: 5px 0;
+                    margin: 0 33px 0;
+                    a{color: #fff;}
                 }
             }
         }

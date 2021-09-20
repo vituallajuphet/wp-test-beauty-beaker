@@ -132,14 +132,36 @@ input[type="radio"] {
     display: flex;
     justify-content: flex-end; }
     #header_nav_cont .main_nav ul li {
+      padding: 28px 0;
       margin-left: 26px; }
       #header_nav_cont .main_nav ul li.current-menu-item a {
         text-decoration: underline; }
+      #header_nav_cont .main_nav ul li.menu-item-has-children:hover ul.sub-menu {
+        display: flex;
+        opacity: 1; }
       #header_nav_cont .main_nav ul li a {
         color: #222;
         font-size: 15px; }
         #header_nav_cont .main_nav ul li a:hover {
           text-decoration: underline; }
+    #header_nav_cont .main_nav ul ul.sub-menu {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      background: #8a468a;
+      width: 100%;
+      left: 0;
+      top: 79px;
+      z-index: 123;
+      padding: 12px 0;
+      transition: all ease-in-out 300ms;
+      opacity: 0;
+      display: none; }
+      #header_nav_cont .main_nav ul ul.sub-menu li {
+        padding: 5px 0;
+        margin: 0 33px 0; }
+        #header_nav_cont .main_nav ul ul.sub-menu li a {
+          color: #fff; }
   #header_nav_cont .main_nav .nav-cart-cont {
     display: flex;
     align-items: center; }
