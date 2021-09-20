@@ -386,6 +386,13 @@ function custom_override_default_address_fields($address_fields) {
      return $address_fields;
 }
 
+// return to shop
+add_filter( 'woocommerce_return_to_shop_redirect', 'st_woocommerce_shop_url' );
+function st_woocommerce_shop_url(){
+   return site_url() . '/products-page';
+}
+//end
+
 // confirm
 /**
  * Add the code below to your theme's functions.php file
