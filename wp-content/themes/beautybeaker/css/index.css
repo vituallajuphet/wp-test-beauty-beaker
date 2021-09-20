@@ -137,8 +137,8 @@ input[type="radio"] {
       #header_nav_cont .main_nav ul li.current-menu-item a {
         text-decoration: underline; }
       #header_nav_cont .main_nav ul li.menu-item-has-children:hover ul.sub-menu {
-        display: flex;
-        opacity: 1; }
+        opacity: 1;
+        height: auto; }
       #header_nav_cont .main_nav ul li a {
         color: #222;
         font-size: 15px; }
@@ -156,7 +156,7 @@ input[type="radio"] {
       padding: 12px 0;
       transition: all ease-in-out 300ms;
       opacity: 0;
-      display: none; }
+      height: 0; }
       #header_nav_cont .main_nav ul ul.sub-menu li {
         padding: 5px 0;
         margin: 0 33px 0; }
