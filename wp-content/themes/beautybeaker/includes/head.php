@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/lib/animations.css">
 	<!-- <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/lib/rslider.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/lib/animations.css"> -->
-
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 	<?php
 		if(is_page(141) && is_user_logged_in()){?>
 			<script>
