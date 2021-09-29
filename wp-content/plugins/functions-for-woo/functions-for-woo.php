@@ -419,6 +419,26 @@ function woocommerce_register_form_password_repeat() {
 add_action( 'woocommerce_register_form', 'woocommerce_register_form_password_repeat' );
 // end confirm
 
+// recap
+function nada_woocommerce_edit_registration_form() {
+   ?>
+   <div id="recaptcha" class="g-recaptcha" data-sitekey="6Lc5S2QcAAAAAB3q5LPV_7EC8QJ_kTNVCIXB2BaU"></div>
+   <?php
+}
+add_action( 'woocommerce_register_form', 'nada_woocommerce_edit_registration_form', 15 );
+
+/**
+* Validate Woocommerce Registration form fields
+*/
+
+function nada_validate_extra_register_fields( $errors, $username, $email ) {
+if ( empty( $_POST['g-recaptcha-response'] ) ) {
+       $errors->add( 'captcha-error', wp_kses_post( '<strong>Error</strong>: Captcha is missing.', 'nada' ) );
+}
+return $errors;
+}
+add_filter( 'woocommerce_registration_errors', 'nada_validate_extra_register_fields', 10, 3 );
+// end recap
 
 //Re-order fields
 add_filter('woocommerce_checkout_fields', 'custom_order_fields');
